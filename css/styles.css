@@ -1,0 +1,136 @@
+body, header, div, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+article{
+    max-width: 1170px;
+    margin: auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', "Times New Roman", serif;
+}
+header h1, header h2 {
+    color: white;
+}
+header h1 {
+    font-size: 44px;
+}
+header h2 {
+    font-size: 32px;
+}
+
+article h2{
+    border-bottom: solid 1.5px black;
+}
+header span {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    width: 160px;
+    padding: 9px;
+    border: solid 1px white;
+}
+header span a:link, header span a:visited {
+    color: white;
+}
+
+header{
+    position: relative;
+    text-align: center; 
+ }
+
+.banner--title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+     
+.highlights--container{
+    width: 585px;
+    float: left;
+    padding-top: 4px;
+}
+
+.highlights--media{
+    width: 300px;
+    float: left;
+}
+
+.highlights--text{
+    width: 285px;
+    float: left;
+}
+
+.highlights--button{
+    width: 100px;
+    float: right;
+}
+
+.mosaic{
+    clear: both;          
+    position: relative;
+    top: 8px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mosaic-item_mosaic--a{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mosaic-item_mosaic--b{
+    position: absolute;
+    right: 296px;
+    top: 0;
+}
+.mosaic-item_mosaic--c{
+    position: absolute;
+    right: 296px;
+    top: 201px;
+}
+.mosaic-item_mosaic--d{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.mosaic-item_mosaic--e{
+    position: absolute;
+    left: 0;
+    top: 401px;
+}
+.mosaic-item_mosaic--f{
+    position: absolute;
+    left: 296px;
+    top: 401px;
+}
+.mosaic-item_mosaic--g{
+    position: absolute;
+    top: 401px;
+    right: 296px;
+}
+.mosaic-item_mosaic--h{
+    position: absolute;
+    top: 401px;
+    right: 0;
+}
+.mosaic-item_mosaic--i{
+    position: absolute;
+    top: 801px;
+    left: 0;
+}
+.mosaic-item_mosaic--j{
+    position: absolute;
+    top: 601px;
+    left: 296px;
+}
+.mosaic-item_mosaic--k{
+    position: absolute;
+    top: 801px;
+    right: 0;
+}
